@@ -3,11 +3,13 @@ I wrote this program to test the efficiency of different observational strategie
 
 
 
-# Files 
-SimulateSpec.py - Program I wrote to simulate infrared spectra from Keck at a number of different observations. Stellar and planetary spectral models are combined at the right contrast and right Doppler shifts, broadened and interpolated onto the same wavelength axis as real observational data.
+## Files 
+SimulateSpec.py
+  * Program I wrote to simulate infrared spectra from Keck at a number of different observations. Stellar and planetary spectral models are combined at the right contrast and right Doppler shifts, broadened and interpolated onto the same wavelength axis as real observational data.
 
-goodnessparam.py - This code analyzes hundreds of simulated results, fittings Gaussians to the suspected planetary detection peaks, and reporting whether the Gaussians accurately detected the simulated planet or did not. This was done to predict the efficiency of different observational strategies. 
+goodnessparam.py
+  * This code analyzes hundreds of simulated results, fittings Gaussians to the suspected planetary detection peaks, and reporting whether the Gaussians accurately detected the simulated planet or did not. This was done to predict the efficiency of different observational strategies. 
 
 
-# Figures
+## Figures
 [gaussianfitparams_noninv.pdf](https://github.com/cbuzard/ScienceProjects/files/10833907/gaussianfitparams_noninv.pdf)
